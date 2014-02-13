@@ -1,0 +1,22 @@
+
+Objectifs :
+
+1) recettes.xml     : ko
+2) recettes.xsl     : ko
+3) recettes.html    : ko
+4) recettes.css     : ko
+5) recettes.xquery  : ko
+
+
+
+
+Question 4) - coup de pouce !
+
+> Chaque étape possède une durée propre
+
+> On additionne le temps de chaque étape puis on en fait la moyenne
+
+
+
+
+http://www.elle.fr/Elle-a-Table/Idees-de-menus/Tous-les-menus/Menus-Saint-Valentin/Aphrodisiaque

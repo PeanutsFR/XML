@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<recettes>
+
+	<recette>
+		
+		<titre id=" " cout=" " categorie=" ">
+		</titre>
+	
+		<photo></photo>
+		
+		<auteur></auteur>
+		
+		<Nbpersonnes></Nbpersonnes>
+		
+		<difficulte></difficulte>
+		
+		<ingredients>
+		
+			<ingredient>
+				<qt></qt>
+				<description></description>
+			</ingredient>
+			
+		</ingredients>
+		
+		<note></note>
+		
+		<preparation duree=" ">	
+
+			<note></note>
+		
+			<etapes>
+			
+				<etape duree=" " type=" ">
+					<description></description>
+					<consigne></consigne>
+					<image></image>	
+				</etape>
+				
+			</etapes>
+			
+		</preparation>
+		
+	</recette>
+
+
+
+</recettes>
