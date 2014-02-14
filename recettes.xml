@@ -1,49 +1,278 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <recettes>
 
+<!-- ********** RECETTE 1 ********** -->
+
 	<recette>
 		
-		<titre id=" " cout=" " categorie=" ">
+		<titre id="Huîtres à l'orange et au piment" cout="bon marché" categorie="entrée">
 		</titre>
 	
-		<photo></photo>
+		<photo>huitres.jpg</photo>
 		
-		<auteur></auteur>
+		<auteur>Elle</auteur>
 		
-		<Nbpersonnes></Nbpersonnes>
+		<Nbpersonnes>6</Nbpersonnes>
 		
-		<difficulte></difficulte>
+		<difficulte>Facile</difficulte>
 		
-		<ingredients>
-		
+		<ingredients>	
+			<ingredient>
+				<qt>24</qt>
+				<description>huitres</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>noix de gingembre frais</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>orange</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>citron vert</description>
+			</ingredient>
+			<ingredient>
+				<qt>1/2</qt>
+				<description>poivron rouge</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>piment vert</description>
+			</ingredient>
+			<ingredient>
+				<qt>3</qt>
+				<description>brins de coriandre</description>
+			</ingredient>
+			<ingredient>
+				<qt>1 c. à soupe</qt>
+				<description>huile de pépins de raisin</description>
+			</ingredient>
 			<ingredient>
 				<qt></qt>
-				<description></description>
+				<description>poivre du moulin</description>
 			</ingredient>
-			
+			<ingredient>
+				<qt></qt>
+				<description>vinaigre de xérès</description>
+			</ingredient>
 		</ingredients>
 		
-		<note></note>
+		<note>4/5</note>
 		
-		<preparation duree=" ">	
-
+		<preparation duree="15">	
 			<note></note>
-		
-			<etapes>
 			
-				<etape duree=" " type=" ">
-					<description></description>
-					<consigne></consigne>
+			<etapes>
+				<etape duree="5" type="préparer">
+					<description>préparer les ingrédients.</description>
+					<consigne>Pelez le gingembre, retirez les graines du poivron et du piment, lavez la coriandre</consigne>
 					<image></image>	
 				</etape>
-				
+				<etape duree="3" type="mixer">
+					<description>mixer les ingrédients.</description>
+					<consigne>Mettez ces ingrédients dans le bol d’un robot ou d’une moulinette et mixez-les finement par à-coups.</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="4" type="mélanger">
+					<description>mélanger les ingrédients.</description>
+					<consigne>Pressez l’orange et le citron. Mettez le hachis dans un bol, ajoutez le jus de l’orange et du citron, l’huile, du sel, du poivre, quelques gouttes de vinaigre et mélangez.</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="3" type="servir">
+					<description>servir les huîtres.</description>
+					<consigne>Ouvrez les huîtres, jetez un peu d’eau et servez avec la préparation.</consigne>
+					<image></image>	
+				</etape>
 			</etapes>
 			
 		</preparation>
 		
 	</recette>
 
+
+<!-- ********** RECETTE 2 ********** -->
+
+	<recette>
+		
+		<titre id="Hachis de poulet, ignames, gingembre et soja" cout="bon marché" categorie="plat principal">
+		</titre>
+	
+		<photo>hachis.jpg</photo>
+		
+		<auteur>Elle</auteur>
+		
+		<Nbpersonnes>6</Nbpersonnes>
+		
+		<difficulte>Facile</difficulte>
+		
+		<ingredients>	
+			<ingredient>
+				<qt>24</qt>
+				<description>huitres</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>noix de gingembre frais</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>orange</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>citron vert</description>
+			</ingredient>
+			<ingredient>
+				<qt>1/2</qt>
+				<description>poivron rouge</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>piment vert</description>
+			</ingredient>
+			<ingredient>
+				<qt>3</qt>
+				<description>brins de coriandre</description>
+			</ingredient>
+			<ingredient>
+				<qt>1 c. à soupe</qt>
+				<description>huile de pépins de raisin</description>
+			</ingredient>
+			<ingredient>
+				<qt></qt>
+				<description>poivre du moulin</description>
+			</ingredient>
+			<ingredient>
+				<qt></qt>
+				<description>vinaigre de xérès</description>
+			</ingredient>
+		</ingredients>
+		
+		<note>4.5/5</note>
+		
+		<preparation duree="95">	
+			<note></note>
+			
+			<etapes>
+				<etape duree="5" type="préparer">
+					<description>préparer les ingrédients.</description>
+					<consigne>Pelez le gingembre, retirez les graines du poivron et du piment, lavez la coriandre</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="3" type="mixer">
+					<description>mixer les ingrédients.</description>
+					<consigne>Mettez ces ingrédients dans le bol d’un robot ou d’une moulinette et mixez-les finement par à-coups.</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="4" type="mélanger">
+					<description>mélanger les ingrédients.</description>
+					<consigne>Pressez l’orange et le citron. Mettez le hachis dans un bol, ajoutez le jus de l’orange et du citron, l’huile, du sel, du poivre, quelques gouttes de vinaigre et mélangez.</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="3" type="servir">
+					<description>servir les huîtres.</description>
+					<consigne>Ouvrez les huîtres, jetez un peu d’eau et servez avec la préparation.</consigne>
+					<image></image>	
+				</etape>
+			</etapes>
+			
+		</preparation>
+		
+	</recette>
+	
+	
+<!-- ********** RECETTE 3 ********** -->
+
+	<recette>
+		
+		<titre id="Huîtres à l'orange et au piment" cout="bon marché" categorie=" ">
+		</titre>
+	
+		<photo>huitres.jpg</photo>
+		
+		<auteur>Elle</auteur>
+		
+		<Nbpersonnes>6</Nbpersonnes>
+		
+		<difficulte>Facile</difficulte>
+		
+		<ingredients>	
+			<ingredient>
+				<qt>24</qt>
+				<description>huitres</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>noix de gingembre frais</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>orange</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>citron vert</description>
+			</ingredient>
+			<ingredient>
+				<qt>1/2</qt>
+				<description>poivron rouge</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>piment vert</description>
+			</ingredient>
+			<ingredient>
+				<qt>3</qt>
+				<description>brins de coriandre</description>
+			</ingredient>
+			<ingredient>
+				<qt>1 c. à soupe</qt>
+				<description>huile de pépins de raisin</description>
+			</ingredient>
+			<ingredient>
+				<qt></qt>
+				<description>poivre du moulin</description>
+			</ingredient>
+			<ingredient>
+				<qt></qt>
+				<description>vinaigre de xérès</description>
+			</ingredient>
+		</ingredients>
+		
+		<note>4/5</note>
+		
+		<preparation duree="15">	
+			<note></note>
+			
+			<etapes>
+				<etape duree="5" type="préparer">
+					<description>préparer les ingrédients.</description>
+					<consigne>Pelez le gingembre, retirez les graines du poivron et du piment, lavez la coriandre</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="3" type="mixer">
+					<description>mixer les ingrédients.</description>
+					<consigne>Mettez ces ingrédients dans le bol d’un robot ou d’une moulinette et mixez-les finement par à-coups.</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="4" type="mélanger">
+					<description>mélanger les ingrédients.</description>
+					<consigne>Pressez l’orange et le citron. Mettez le hachis dans un bol, ajoutez le jus de l’orange et du citron, l’huile, du sel, du poivre, quelques gouttes de vinaigre et mélangez.</consigne>
+					<image></image>	
+				</etape>
+				<etape duree="3" type="servir">
+					<description>servir les huîtres.</description>
+					<consigne>Ouvrez les huîtres, jetez un peu d’eau et servez avec la préparation.</consigne>
+					<image></image>	
+				</etape>
+			</etapes>
+			
+		</preparation>
+		
+	</recette>
 
 
 </recettes>
