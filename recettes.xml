@@ -220,71 +220,67 @@ Mettez le plat dans le four pendant 30 mn, puis sous le gril 5 mn et servez.</co
 		
 		<ingredients>	
 			<ingredient>
-				<qt>24</qt>
-				<description>huitres</description>
+				<qt>20cl</qt>
+				<description>crème liquide</description>
 			</ingredient>
 			<ingredient>
-				<qt>1</qt>
-				<description>noix de gingembre frais</description>
-			</ingredient>
-			<ingredient>
-				<qt>1</qt>
-				<description>orange</description>
-			</ingredient>
-			<ingredient>
-				<qt>1</qt>
-				<description>citron vert</description>
-			</ingredient>
-			<ingredient>
-				<qt>1/2</qt>
-				<description>poivron rouge</description>
-			</ingredient>
-			<ingredient>
-				<qt>1</qt>
-				<description>piment vert</description>
+				<qt>300g</qt>
+				<description>chocolat noir</description>
 			</ingredient>
 			<ingredient>
 				<qt>3</qt>
-				<description>brins de coriandre</description>
+				<description>oeufs</description>
+			</ingredient>
+			<ingredient>
+				<qt>125g</qt>
+				<description>beurre</description>
+			</ingredient>
+			<ingredient>
+				<qt>50g</qt>
+				<description>sucre glace</description>
+			</ingredient>
+			<ingredient>
+				<qt>30g</qt>
+				<description>amendes en poudre</description>
 			</ingredient>
 			<ingredient>
 				<qt>1 c. à soupe</qt>
-				<description>huile de pépins de raisin</description>
+				<description>vanille liquide</description>
 			</ingredient>
 			<ingredient>
-				<qt></qt>
-				<description>poivre du moulin</description>
+				<qt>1</qt>
+				<description>oeuf</description>
 			</ingredient>
 			<ingredient>
-				<qt></qt>
-				<description>vinaigre de xérès</description>
+				<qt>250g</qt>
+				<description>farine</description>
 			</ingredient>
 		</ingredients>
 		
-		<note>4/5</note>
+		<note>3/5</note>
 		
-		<preparation duree="15">	
+		<preparation duree="65">	
 			<note></note>
 			
 			<etapes>
-				<etape duree="5" type="préparer">
-					<description>préparer les ingrédients.</description>
-					<consigne>Pelez le gingembre, retirez les graines du poivron et du piment, lavez la coriandre</consigne>
+				<etape duree="10" type="préparer la pâte">
+					<description>préparer la pâte à tarte</description>
+					<consigne>Mettez le beurre, le sucre glace, les amandes, la vanille et l’œuf dans le bol d’un robot, mixez jusqu’à ce que la préparation soit lisse, puis ajoutez 220 g de farine en mixant par impulsions jusqu’à ce que la pâte forme une boule. Ajoutez le reste de farine si nécessaire et mettez la pâte au frais 15 mn.</consigne>
 					<image></image>	
 				</etape>
-				<etape duree="3" type="mixer">
-					<description>mixer les ingrédients.</description>
-					<consigne>Mettez ces ingrédients dans le bol d’un robot ou d’une moulinette et mixez-les finement par à-coups.</consigne>
+				<etape duree="10" type="préparer la garniture">
+					<description>préparer la garniture</description>
+					<consigne>Pour la garniture, faites bouillir la crème. Hachez le chocolat avec un grand couteau, versez la crème bouillante dessus, remuez jusqu’à ce que le chocolat soit fondu et ajoutez les œufs un à un en remuant au fouet.</consigne>
 					<image></image>	
 				</etape>
-				<etape duree="4" type="mélanger">
-					<description>mélanger les ingrédients.</description>
-					<consigne>Pressez l’orange et le citron. Mettez le hachis dans un bol, ajoutez le jus de l’orange et du citron, l’huile, du sel, du poivre, quelques gouttes de vinaigre et mélangez.</consigne>
+				<etape duree="15" type="cuire la pâte">
+					<description>cuire la pâte à tarte.</description>
+					<consigne>Allumez le four sur th. 6/180°. Beurrez un moule à tarte, étalez la pâte sur le plan de travail fariné et mettez-la dans le moule. La pâte étant assez friable, n’hésitez pas à colmater les brèches du bout des doigts. Piquez-la de plusieurs coups de fourchette et faites-la cuire à blanc 12 à 15 mn.</consigne>
 					<image></image>	
 				</etape>
-				<etape duree="3" type="servir">
-					<description>servir les huîtres.</description>
-					<consigne>Ouvrez les huîtres, jetez un peu d’eau et servez avec la préparation.</consigne>
+				<etape duree="30" type="servir">
+					<description>cuire la tarte.</description>
+					<consigne>Versez ensuite la préparation au chocolat sur la pâte, baissez le thermostat à 3-4/110° et faites-la cuire 25 à 30 mn. Servez à température ambiante.</consigne>
 					<image></image>	
 				</etape>
 			</etapes>
