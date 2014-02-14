@@ -110,44 +110,56 @@
 		
 		<ingredients>	
 			<ingredient>
-				<qt>24</qt>
-				<description>huitres</description>
+				<qt>4</qt>
+				<description>cuisses de poulet désossées</description>
+			</ingredient>
+			<ingredient>
+				<qt>2</qt>
+				<description>blancs de poulet</description>
 			</ingredient>
 			<ingredient>
 				<qt>1</qt>
-				<description>noix de gingembre frais</description>
+				<description>morceau de gingembre</description>
 			</ingredient>
 			<ingredient>
 				<qt>1</qt>
-				<description>orange</description>
+				<description>gousse d'ail</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>oignon tige</description>
+			</ingredient>
+			<ingredient>
+				<qt>1</qt>
+				<description>petit piment</description>
 			</ingredient>
 			<ingredient>
 				<qt>1</qt>
 				<description>citron vert</description>
 			</ingredient>
 			<ingredient>
-				<qt>1/2</qt>
-				<description>poivron rouge</description>
+				<qt>5 c. à soupe</qt>
+				<description>sauce soja</description>
 			</ingredient>
 			<ingredient>
-				<qt>1</qt>
-				<description>piment vert</description>
+				<qt>5 c. à soupe</qt>
+				<description>huile d'olive</description>
 			</ingredient>
 			<ingredient>
-				<qt>3</qt>
-				<description>brins de coriandre</description>
+				<qt>2 louches</qt>
+				<description>bouillon de boeuf (ou de volaille)</description>
 			</ingredient>
 			<ingredient>
-				<qt>1 c. à soupe</qt>
-				<description>huile de pépins de raisin</description>
+				<qt>2</qt>
+				<description>ignames (environ 1kg)</description>
 			</ingredient>
 			<ingredient>
-				<qt></qt>
-				<description>poivre du moulin</description>
+				<qt>100g</qt>
+				<description>crème fraîche</description>
 			</ingredient>
 			<ingredient>
-				<qt></qt>
-				<description>vinaigre de xérès</description>
+				<qt>50g</qt>
+				<description>beurre (+ 1 noix)</description>
 			</ingredient>
 		</ingredients>
 		
@@ -157,24 +169,31 @@
 			<note></note>
 			
 			<etapes>
-				<etape duree="5" type="préparer">
-					<description>préparer les ingrédients.</description>
-					<consigne>Pelez le gingembre, retirez les graines du poivron et du piment, lavez la coriandre</consigne>
+				<etape duree="10" type="préparer le poulet">
+					<description>préparer le poulet et le faire mariner.</description>
+					<consigne>Coupez le poulet en petits morceaux et retirez la peau. Mettez les morceaux
+dans un plat creux avec l’ail et l’oignon émincés, le piment haché, le gingembre
+pelé et râpé, le jus du citron vert, le soja et l’huile d’olive. Ne salez pas.
+Couvrez d’un film étirable et mettez au frais pendant 2 h ou plus.</consigne>
 					<image></image>	
 				</etape>
-				<etape duree="3" type="mixer">
-					<description>mixer les ingrédients.</description>
-					<consigne>Mettez ces ingrédients dans le bol d’un robot ou d’une moulinette et mixez-les finement par à-coups.</consigne>
+				<etape duree="20" type="préparer les ignames">
+					<description>nettoyer et préparer les ignames</description>
+					<consigne>Au bout de ce temps, épluchez les ignames et coupez-les en morceaux. Rincez-les sous l’eau froide et faites-les cuire dans de l’eau bouillante salée pendant
+45 mn environ. </consigne>
 					<image></image>	
 				</etape>
-				<etape duree="4" type="mélanger">
-					<description>mélanger les ingrédients.</description>
-					<consigne>Pressez l’orange et le citron. Mettez le hachis dans un bol, ajoutez le jus de l’orange et du citron, l’huile, du sel, du poivre, quelques gouttes de vinaigre et mélangez.</consigne>
+				<etape duree="20" type="cuire le poulet">
+					<description>cuire le poulet et laisser mijoter.</description>
+					<consigne>Faites chauffer une grande poêle ou une sauteuse et faites revenir le poulet avec la marinade, ajoutez le bouillon, puis laissez mijoter 30 mn.</consigne>
 					<image></image>	
 				</etape>
-				<etape duree="3" type="servir">
-					<description>servir les huîtres.</description>
-					<consigne>Ouvrez les huîtres, jetez un peu d’eau et servez avec la préparation.</consigne>
+				<etape duree="45" type="enfourner le plat">
+					<description>enfourner le plat avec tous les ingrédients.</description>
+					<consigne>Allumez le four th. 6/180° et beurrez un plat à gratin. 
+Répartissez la volaille dans le plat en l’effilochant.
+Passez l’igname à la moulinette munie de la grosse grille et mélangez le à la crème et au beurre. Etalez la purée d’ignames sur la viande.
+Mettez le plat dans le four pendant 30 mn, puis sous le gril 5 mn et servez.</consigne>
 					<image></image>	
 				</etape>
 			</etapes>
@@ -188,10 +207,10 @@
 
 	<recette>
 		
-		<titre id="Huîtres à l'orange et au piment" cout="bon marché" categorie=" ">
+		<titre id="Tarte au chocolat" cout="bon marché" categorie="dessert">
 		</titre>
 	
-		<photo>huitres.jpg</photo>
+		<photo>tarte.jpg</photo>
 		
 		<auteur>Elle</auteur>
 		
