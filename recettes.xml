@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Peanuts/Documents/Master1%20Info/XML/XML/recettes.xslt"?>
 <recettes>
-
-<!-- ********** RECETTE 1 ********** -->
-
+	<!-- ********** RECETTE 1 ********** -->
 	<recette>
-		
 		<titre id="Huîtres à l'orange et au piment" cout="bon marché" categorie="entrée">
 		</titre>
-	
 		<photo>huitres.jpg</photo>
-		
 		<auteur>Elle</auteur>
-		
 		<Nbpersonnes>6</Nbpersonnes>
-		
 		<difficulte>Facile</difficulte>
-		
-		<ingredients>	
+		<ingredients>
 			<ingredient>
 				<qt>24</qt>
 				<description>huitres</description>
@@ -51,64 +43,50 @@
 				<description>huile de pépins de raisin</description>
 			</ingredient>
 			<ingredient>
-				<qt></qt>
+				<qt/>
 				<description>poivre du moulin</description>
 			</ingredient>
 			<ingredient>
-				<qt></qt>
+				<qt/>
 				<description>vinaigre de xérès</description>
 			</ingredient>
 		</ingredients>
-		
 		<note>4/5</note>
-		
-		<preparation duree="15">	
-			<note></note>
-			
+		<preparation duree="15">
+			<note/>
 			<etapes>
 				<etape duree="5" type="préparer">
 					<description>préparer les ingrédients.</description>
 					<consigne>Pelez le gingembre, retirez les graines du poivron et du piment, lavez la coriandre</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="3" type="mixer">
 					<description>mixer les ingrédients.</description>
 					<consigne>Mettez ces ingrédients dans le bol d’un robot ou d’une moulinette et mixez-les finement par à-coups.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="4" type="mélanger">
 					<description>mélanger les ingrédients.</description>
 					<consigne>Pressez l’orange et le citron. Mettez le hachis dans un bol, ajoutez le jus de l’orange et du citron, l’huile, du sel, du poivre, quelques gouttes de vinaigre et mélangez.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="3" type="servir">
 					<description>servir les huîtres.</description>
 					<consigne>Ouvrez les huîtres, jetez un peu d’eau et servez avec la préparation.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 			</etapes>
-			
 		</preparation>
-		
 	</recette>
-
-
-<!-- ********** RECETTE 2 ********** -->
-
+	<!-- ********** RECETTE 2 ********** -->
 	<recette>
-		
 		<titre id="Hachis de poulet, ignames, gingembre et soja" cout="bon marché" categorie="plat principal">
 		</titre>
-	
 		<photo>hachis.jpg</photo>
-		
 		<auteur>Elle</auteur>
-		
 		<Nbpersonnes>6</Nbpersonnes>
-		
 		<difficulte>Facile</difficulte>
-		
-		<ingredients>	
+		<ingredients>
 			<ingredient>
 				<qt>4</qt>
 				<description>cuisses de poulet désossées</description>
@@ -162,12 +140,9 @@
 				<description>beurre (+ 1 noix)</description>
 			</ingredient>
 		</ingredients>
-		
 		<note>4.5/5</note>
-		
-		<preparation duree="95">	
-			<note></note>
-			
+		<preparation duree="95">
+			<note/>
 			<etapes>
 				<etape duree="10" type="préparer le poulet">
 					<description>préparer le poulet et le faire mariner.</description>
@@ -175,18 +150,18 @@
 dans un plat creux avec l’ail et l’oignon émincés, le piment haché, le gingembre
 pelé et râpé, le jus du citron vert, le soja et l’huile d’olive. Ne salez pas.
 Couvrez d’un film étirable et mettez au frais pendant 2 h ou plus.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="20" type="préparer les ignames">
 					<description>nettoyer et préparer les ignames</description>
 					<consigne>Au bout de ce temps, épluchez les ignames et coupez-les en morceaux. Rincez-les sous l’eau froide et faites-les cuire dans de l’eau bouillante salée pendant
 45 mn environ. </consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="20" type="cuire le poulet">
 					<description>cuire le poulet et laisser mijoter.</description>
 					<consigne>Faites chauffer une grande poêle ou une sauteuse et faites revenir le poulet avec la marinade, ajoutez le bouillon, puis laissez mijoter 30 mn.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="45" type="enfourner le plat">
 					<description>enfourner le plat avec tous les ingrédients.</description>
@@ -194,31 +169,20 @@ Couvrez d’un film étirable et mettez au frais pendant 2 h ou plus.</consigne>
 Répartissez la volaille dans le plat en l’effilochant.
 Passez l’igname à la moulinette munie de la grosse grille et mélangez le à la crème et au beurre. Etalez la purée d’ignames sur la viande.
 Mettez le plat dans le four pendant 30 mn, puis sous le gril 5 mn et servez.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 			</etapes>
-			
 		</preparation>
-		
 	</recette>
-	
-	
-<!-- ********** RECETTE 3 ********** -->
-
+	<!-- ********** RECETTE 3 ********** -->
 	<recette>
-		
 		<titre id="Tarte au chocolat" cout="bon marché" categorie="dessert">
 		</titre>
-	
 		<photo>tarte.jpg</photo>
-		
 		<auteur>Elle</auteur>
-		
 		<Nbpersonnes>6</Nbpersonnes>
-		
 		<difficulte>Facile</difficulte>
-		
-		<ingredients>	
+		<ingredients>
 			<ingredient>
 				<qt>20cl</qt>
 				<description>crème liquide</description>
@@ -256,38 +220,31 @@ Mettez le plat dans le four pendant 30 mn, puis sous le gril 5 mn et servez.</co
 				<description>farine</description>
 			</ingredient>
 		</ingredients>
-		
 		<note>3/5</note>
-		
-		<preparation duree="65">	
-			<note></note>
-			
+		<preparation duree="65">
+			<note/>
 			<etapes>
 				<etape duree="10" type="préparer la pâte">
 					<description>préparer la pâte à tarte</description>
 					<consigne>Mettez le beurre, le sucre glace, les amandes, la vanille et l’œuf dans le bol d’un robot, mixez jusqu’à ce que la préparation soit lisse, puis ajoutez 220 g de farine en mixant par impulsions jusqu’à ce que la pâte forme une boule. Ajoutez le reste de farine si nécessaire et mettez la pâte au frais 15 mn.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="10" type="préparer la garniture">
 					<description>préparer la garniture</description>
 					<consigne>Pour la garniture, faites bouillir la crème. Hachez le chocolat avec un grand couteau, versez la crème bouillante dessus, remuez jusqu’à ce que le chocolat soit fondu et ajoutez les œufs un à un en remuant au fouet.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="15" type="cuire la pâte">
 					<description>cuire la pâte à tarte.</description>
 					<consigne>Allumez le four sur th. 6/180°. Beurrez un moule à tarte, étalez la pâte sur le plan de travail fariné et mettez-la dans le moule. La pâte étant assez friable, n’hésitez pas à colmater les brèches du bout des doigts. Piquez-la de plusieurs coups de fourchette et faites-la cuire à blanc 12 à 15 mn.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 				<etape duree="30" type="servir">
 					<description>cuire la tarte.</description>
 					<consigne>Versez ensuite la préparation au chocolat sur la pâte, baissez le thermostat à 3-4/110° et faites-la cuire 25 à 30 mn. Servez à température ambiante.</consigne>
-					<image></image>	
+					<image/>
 				</etape>
 			</etapes>
-			
 		</preparation>
-		
 	</recette>
-
-
 </recettes>
