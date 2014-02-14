@@ -3,6 +3,7 @@
 	<xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes"/>
 	
 	<xsl:template match="/">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<html>
 			<body>
 				<h1>Recettes</h1>
@@ -32,6 +33,9 @@
             <br/>
 			<br/>
 			<xsl:apply-templates select="ingredients"/>
+			<br/>
+			<br/>
+			<xsl:apply-templates select="preparation"/>
 		</div>
 	</xsl:template>
 	
@@ -45,12 +49,33 @@
 	<xsl:template match="ingredient">
 			<li> 
 				<xsl:value-of select="qt/node()"/>
+				<xsl:text>  </xsl:text>
 				<xsl:value-of select="description/node()"/> 
 			</li>
 	</xsl:template>
 	
-	<xsl:template match="/recette/etapes">
-		<h3> Etapes </h3>
+	<xsl:template match="preparation">
+		<h3> Préparation </h3>
+		<em>Durée totale : <xsl:value-of select="@duree"/>mn</em>
+		<xsl:apply-templates select="etapes"/>
+	</xsl:template>
+	
+	<xsl:template match="etapes">
+		<h4> Etapes </h4>
+		<p>
+			<xsl:apply-templates select="etape"/>
+		</p>
+	</xsl:template>
+	
+	<xsl:template match="etape">
+		<br/>
+		<em>
+			<xsl:value-of select="@type"/>
+			<xsl:text> - durée : </xsl:text> <xsl:value-of select="@duree"/> <xsl:text>mn</xsl:text>
+		</em>
+		<br/>
+		<xsl:value-of select="consigne"/>
+		<br/>
 	</xsl:template>
 	
 </xsl:stylesheet>
